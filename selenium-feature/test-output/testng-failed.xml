@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testNGListeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="createTelecomCustomer.CreateCustomer">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="tearDown"/>
+          <include name="createCustomer1"/>
+          <include name="createCustomer2"/>
+        </methods>
+      </class> <!-- createTelecomCustomer.CreateCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

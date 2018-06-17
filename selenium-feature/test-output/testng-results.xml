@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23002" started-at="2018-06-17T19:42:38Z" finished-at="2018-06-17T19:43:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23002" started-at="2018-06-17T19:42:38Z" finished-at="2018-06-17T19:43:01Z">
+      <class name="createTelecomCustomer.CreateCustomer">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="testSetUp" is-config="true" duration-ms="9024" started-at="2018-06-17T19:42:38Z" finished-at="2018-06-17T19:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="createCustomer1()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="createCustomer1" duration-ms="9038" started-at="2018-06-17T19:42:47Z" finished-at="2018-06-17T19:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer1 -->
+        <test-method status="PASS" signature="createCustomer2()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="createCustomer2" duration-ms="3651" started-at="2018-06-17T19:42:57Z" finished-at="2018-06-17T19:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="tearDown" is-config="true" duration-ms="885" started-at="2018-06-17T19:43:00Z" finished-at="2018-06-17T19:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- createTelecomCustomer.CreateCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
