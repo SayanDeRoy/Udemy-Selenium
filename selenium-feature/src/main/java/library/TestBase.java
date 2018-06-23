@@ -36,12 +36,6 @@ public class TestBase {
 	XSSFWorkbook wb = null;
 	XSSFSheet sheet = null;
 	
-	
-	/**
-	 * 
-	 * @param key
-	 * @return
-	 */
 	private String readProperty(String key)
 	{
 		try {
@@ -59,9 +53,6 @@ public class TestBase {
 		}
 		return propertValue;
 	}
-	/**
-	 * 
-	 */
 	private void openBrowser()
 	{
 		String actualBrowser = readProperty("browser");
@@ -106,39 +97,22 @@ public class TestBase {
 			throw new IllegalArgumentException("Not a Browser Type: "+actualBrowser);
 		}
 	}
-	/**
-	 * 
-	 * @param url
-	 * @return
-	 */
 	public WebDriver openURL(String url)
 	{
 		openBrowser();
 		driver.get(readProperty(url));
 		return driver;
 	}
-	/**
-	 * 
-	 */
 	public void closeCurrentBrowser()
 	{
 		driver.close();
 		driver = null;
 	}
-	/**
-	 * 
-	 */
 	public void closeAllBrowser()
 	{
 		driver.quit();
 		driver = null;
 	}
-	/**
-	 * 
-	 * @param sheetName
-	 * @param testCaseName
-	 * @return
-	 */
 	public HashMap<String,String> readExcel(String sheetName, String testCaseName)
 	{
 		HashMap<String,String> dataSet = new HashMap<>();
