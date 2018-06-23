@@ -7,6 +7,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>selenium-feature</name>
   <url>http://maven.apache.org</url>
+  <properties>
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <profiles>
   	<profile>
   		<id>Regression</id>
@@ -21,7 +25,7 @@
 			          <suiteXmlFiles>
 			            <suiteXmlFile>testngRegression.xml</suiteXmlFile>
 			          </suiteXmlFiles>
-		        </configuration>
+		          </configuration>
 		        </plugin>
 		      </plugins>
 		    </pluginManagement>
@@ -40,7 +44,7 @@
 			          <suiteXmlFiles>
 			            <suiteXmlFile>testngSmoke.xml</suiteXmlFile>
 			          </suiteXmlFiles>
-		        </configuration>
+		          </configuration>
 		        </plugin>
 		      </plugins>
 		    </pluginManagement>
