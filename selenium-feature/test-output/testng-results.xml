@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23002" started-at="2018-06-17T19:42:38Z" finished-at="2018-06-17T19:43:01Z">
+  <suite name="Suite" duration-ms="42307" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:02:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23002" started-at="2018-06-17T19:42:38Z" finished-at="2018-06-17T19:43:01Z">
-      <class name="createTelecomCustomer.CreateCustomer">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="testSetUp" is-config="true" duration-ms="9024" started-at="2018-06-17T19:42:38Z" finished-at="2018-06-17T19:42:47Z">
+    <test name="Test" duration-ms="42307" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:02:04Z">
+      <class name="seleniumTest.Dummy2">
+        <test-method status="PASS" signature="regression()[pri:0, instance:seleniumTest.Dummy2@589838eb]" name="regression" duration-ms="5" started-at="2018-06-23T16:02:04Z" finished-at="2018-06-23T16:02:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="createCustomer1()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="createCustomer1" duration-ms="9038" started-at="2018-06-17T19:42:47Z" finished-at="2018-06-17T19:42:56Z">
+        </test-method> <!-- regression -->
+      </class> <!-- seleniumTest.Dummy2 -->
+      <class name="seleniumTest.DateBaseConnection">
+        <test-method status="PASS" signature="connectDB()[pri:0, instance:seleniumTest.DateBaseConnection@4f7d0008]" name="connectDB" duration-ms="499" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:01:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomer1 -->
-        <test-method status="PASS" signature="createCustomer2()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="createCustomer2" duration-ms="3651" started-at="2018-06-17T19:42:57Z" finished-at="2018-06-17T19:43:00Z">
+        </test-method> <!-- connectDB -->
+      </class> <!-- seleniumTest.DateBaseConnection -->
+      <class name="seleniumTest.Dummy1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="setUp" is-config="true" duration-ms="24452" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:01:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomer2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:createTelecomCustomer.CreateCustomer@17d677df]" name="tearDown" is-config="true" duration-ms="885" started-at="2018-06-17T19:43:00Z" finished-at="2018-06-17T19:43:01Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ksrtc()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="ksrtc" duration-ms="2" started-at="2018-06-23T16:01:47Z" finished-at="2018-06-23T16:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ksrtc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="tearDown" is-config="true" duration-ms="761" started-at="2018-06-23T16:01:47Z" finished-at="2018-06-23T16:01:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- createTelecomCustomer.CreateCustomer -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="setUp" is-config="true" duration-ms="15647" started-at="2018-06-23T16:01:48Z" finished-at="2018-06-23T16:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ksrtcAgain()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="ksrtcAgain" duration-ms="166" started-at="2018-06-23T16:02:03Z" finished-at="2018-06-23T16:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ksrtcAgain -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="tearDown" is-config="true" duration-ms="714" started-at="2018-06-23T16:02:03Z" finished-at="2018-06-23T16:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumTest.Dummy1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

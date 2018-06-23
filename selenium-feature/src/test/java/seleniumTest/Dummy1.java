@@ -17,18 +17,17 @@ public class Dummy1 {
 	public void setUp()
 	{
 		base = new TestBase();
-		driver = base.openURL("telecom");
+		driver = base.openURL("ksrtc");
 	}
 	@Test
 	public void ksrtc()
 	{
-		//driver.findElement(By.id("fromPlaceName")).sendKeys("Bengaluru");
-		base.readExcel("Data", "addCustomerAndPayBill");
+		
 	}
 	@Test
 	public void ksrtcAgain()
 	{
-		//driver.findElement(By.id("fromPlaceName")).sendKeys("Mysuru");
+		driver.findElement(By.id("fromPlaceName")).sendKeys("Mysuru");
 	}
 	@AfterMethod
 	public void tearDown()
