@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42307" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:02:04Z">
+  <suite name="Suite" duration-ms="17083" started-at="2018-06-23T18:24:06Z" finished-at="2018-06-23T18:24:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="42307" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:02:04Z">
+    <test name="Test" duration-ms="17083" started-at="2018-06-23T18:24:06Z" finished-at="2018-06-23T18:24:23Z">
       <class name="seleniumTest.Dummy2">
-        <test-method status="PASS" signature="regression()[pri:0, instance:seleniumTest.Dummy2@589838eb]" name="regression" duration-ms="5" started-at="2018-06-23T16:02:04Z" finished-at="2018-06-23T16:02:04Z">
+        <test-method status="PASS" signature="regression()[pri:0, instance:seleniumTest.Dummy2@c46bcd4]" name="regression" duration-ms="8" started-at="2018-06-23T18:24:23Z" finished-at="2018-06-23T18:24:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regression -->
       </class> <!-- seleniumTest.Dummy2 -->
       <class name="seleniumTest.DateBaseConnection">
-        <test-method status="PASS" signature="connectDB()[pri:0, instance:seleniumTest.DateBaseConnection@4f7d0008]" name="connectDB" duration-ms="499" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:01:22Z">
+        <test-method status="PASS" signature="connectDB()[pri:0, instance:seleniumTest.DateBaseConnection@631330c]" name="connectDB" duration-ms="644" started-at="2018-06-23T18:24:06Z" finished-at="2018-06-23T18:24:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
       </class> <!-- seleniumTest.DateBaseConnection -->
       <class name="seleniumTest.Dummy1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="setUp" is-config="true" duration-ms="24452" started-at="2018-06-23T16:01:22Z" finished-at="2018-06-23T16:01:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.Dummy1@42f93a98]" name="setUp" is-config="true" duration-ms="8513" started-at="2018-06-23T18:24:07Z" finished-at="2018-06-23T18:24:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ksrtc()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="ksrtc" duration-ms="2" started-at="2018-06-23T16:01:47Z" finished-at="2018-06-23T16:01:47Z">
+        <test-method status="PASS" signature="ksrtc()[pri:0, instance:seleniumTest.Dummy1@42f93a98]" name="ksrtc" duration-ms="2" started-at="2018-06-23T18:24:16Z" finished-at="2018-06-23T18:24:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ksrtc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="tearDown" is-config="true" duration-ms="761" started-at="2018-06-23T16:01:47Z" finished-at="2018-06-23T16:01:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.Dummy1@42f93a98]" name="tearDown" is-config="true" duration-ms="733" started-at="2018-06-23T18:24:16Z" finished-at="2018-06-23T18:24:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="setUp" is-config="true" duration-ms="15647" started-at="2018-06-23T16:01:48Z" finished-at="2018-06-23T16:02:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumTest.Dummy1@42f93a98]" name="setUp" is-config="true" duration-ms="5761" started-at="2018-06-23T18:24:17Z" finished-at="2018-06-23T18:24:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ksrtcAgain()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="ksrtcAgain" duration-ms="166" started-at="2018-06-23T16:02:03Z" finished-at="2018-06-23T16:02:03Z">
+        <test-method status="PASS" signature="ksrtcAgain()[pri:0, instance:seleniumTest.Dummy1@42f93a98]" name="ksrtcAgain" duration-ms="224" started-at="2018-06-23T18:24:22Z" finished-at="2018-06-23T18:24:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ksrtcAgain -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.Dummy1@271053e1]" name="tearDown" is-config="true" duration-ms="714" started-at="2018-06-23T16:02:03Z" finished-at="2018-06-23T16:02:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumTest.Dummy1@42f93a98]" name="tearDown" is-config="true" duration-ms="681" started-at="2018-06-23T18:24:23Z" finished-at="2018-06-23T18:24:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
